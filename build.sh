@@ -63,7 +63,7 @@ echo "<!DOCTYPE html>
     </button>
   </div>
   <main>
-  <h1>Gruvbox Wallpapers</h1>" > ./index.html
+  <h1>Wall Os</h1>" > ./index.html
 
 color=1
 
