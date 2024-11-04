@@ -50,7 +50,12 @@ echo "<!DOCTYPE html>
 
 <body>
   <div class='float-btns'>
-    <a href='https://github.com/AngelJumbo/gruvbox-wallpapers' target='_blank' class='btn float-btn' title='Source code' >
+    <a href='https://purpleyard.xyz' target='_blank' class='btn float-btn' title='Visit PurpleYard'>
+      <span>
+         <i class='fa-brands fa-blog'></i>
+      </span>
+   </a>
+    <a href='https://github.com/PurpleHallos/hallos-wallpapers' target='_blank' class='btn float-btn' title='Source code' >
       <span>
         <i class='fa-brands fa-github'></i>
       </span>
