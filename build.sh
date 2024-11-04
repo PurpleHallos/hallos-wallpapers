@@ -44,6 +44,7 @@ echo "<!DOCTYPE html>
   <meta name='viewport' content='width=device-width, initial-scale=1.0'>
   <link rel='stylesheet' type='text/css' href='style.css'>
   <title>Wall Os</title>
+  <link rel='icon' href='favicon.png' type='image/png'>
   <script src='app.js' defer></script>
   <script src='https://kit.fontawesome.com/13865d7982.js' crossorigin='anonymous' defer></script>
 </head>
