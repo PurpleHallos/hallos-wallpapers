@@ -43,7 +43,7 @@ echo "<!DOCTYPE html>
   <meta charset='utf-8'>
   <meta name='viewport' content='width=device-width, initial-scale=1.0'>
   <link rel='stylesheet' type='text/css' href='style.css'>
-  <title>Gruvbox wallpapers</title>
+  <title>Wall Os</title>
   <script src='app.js' defer></script>
   <script src='https://kit.fontawesome.com/13865d7982.js' crossorigin='anonymous' defer></script>
 </head>
