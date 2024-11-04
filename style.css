@@ -2,37 +2,38 @@
 
 :root {
   color-scheme: light dark;
-  --bg-color: #fbf1c7; /* Light background */
-  --fg-color: #3c3836; /* Dark foreground */
+  --bg-color: light-dark(#fbf1c7, #282828);
+  --fg-color: light-dark(#3c3836, #ebdbb2);
 
-  --bg-color-reverse: #3c3836; /* Dark background for reverse */
-  --fg-color-reverse: #fbf1c7; /* Light foreground for reverse */
+  --bg-color-reverse: light-dark(#3c3836, #ebdbb2);
+  --fg-color-reverse: light-dark(#fbf1c7, #282828);
 
-  --bg-color-3: #bdae93; /* Lighter background color */
-  --bg-color-3-switch: #665c54; /* Darker background for switch */
-  --bg-color-hard: #f9f5d7; /* Hard background color */
-  --gray: #7c6f64; /* Gray color */
+  --bg-color-3: light-dark(#bdae93, #665c54);
+  --bg-color-3-switch: light-dark(#665c54, #bdae93);
+  --bg-color-hard: light-dark(#f9f5d7, #1d2021);
+  --gray: light-dark(#7c6f64, #a89984);
 
-  --orange: #d65d0e; /* Mocha orange */
-  --red: #cc241d; /* Mocha red */
-  --green: #98971a; /* Mocha green */
-  --yellow: #d79921; /* Mocha yellow */
-  --blue: #458588; /* Mocha blue */
-  --purple: #b16286; /* Mocha purple */
-  --aqua: #689d6a; /* Mocha aqua */
+  --orange: #d65d0e;
+  --red: #cc241d;
+  --green: #98971a;
+  --yellow: #d79921;
+  --blue: #458588;
+  --purple: #b16286;
+  --aqua: #689d6a;
 
-  --orange-dim: #af3a03; /* Dimmed orange */
-  --red-dim: #9d0006; /* Dimmed red */
-  --green-dim: #79740e; /* Dimmed green */
-  --yellow-dim: #b57614; /* Dimmed yellow */
-  --blue-dim: #076678; /* Dimmed blue */
-  --purple-dim: #8f3f71; /* Dimmed purple */
-  --aqua-dim: #427b58; /* Dimmed aqua */
+  --orange-dim: light-dark(#af3a03, #fe8019);
+  --red-dim: light-dark(#9d0006, #fb4934);
+  --green-dim: light-dark(#79740e, #b8bb26);
+  --yellow-dim: light-dark(#b57614, #fabd2f);
+  --blue-dim: light-dark(#076678, #83a598);
+  --purple-dim: light-dark(#8f3f71, #d3869d);
+  --aqua-dim: light-dark(#427b58, #8ec07c);
 }
 
 body {
   background-color: var(--bg-color);
-  font-family: "Courier New", monospace;
+  /*container-type: inline-size;*/
+  font-family: "Curier New", monospace;
   margin: 0;
   min-height: 100svh;
   flex-direction: column;
@@ -93,6 +94,7 @@ img:hover {
 
 .btn {
   transition: background 0.4s ease-in-out;
+
   cursor: pointer;
   background-color: var(--bg-color-reverse);
   color: var(--fg-color-reverse);
@@ -115,6 +117,7 @@ img:hover {
   &.selected {
     background-color: var(--bg-color);
     color: var(--fg-color);
+
     border-color: var(--fg-color);
     border-width: thick;
     border-style: solid;
