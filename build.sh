@@ -42,6 +42,20 @@ echo "<!DOCTYPE html>
 <head>
   <meta charset='utf-8'>
   <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+
+    <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Wall Os">
+  <meta property="og:description" content="🎨 Epic wallpapers await! 🌌">
+  <meta property="og:image" content="https://wallos.purpleyard.xyz/wallpapers/nord/wallhaven-z88pvj.jpg">
+  <meta property="og:url" content="https://wallos.purpleyard.xyz/">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Wall Os">
+  <meta name="twitter:description" content="🎨 Epic wallpapers await! 🌌">
+  <meta name="twitter:image" content="https://wallos.purpleyard.xyz/wallpapers/nord/wallhaven-z88pvj.jpg">
+
   <link rel='stylesheet' type='text/css' href='style.css'>
   <title>Wall Os</title>
   <link rel='icon' href='favicon.png' type='image/png'>
