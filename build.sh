@@ -68,9 +68,7 @@ echo "<!DOCTYPE html>
 <body>
   <div class='float-btns'>
     <a href="https://t.me/HallosTech" target="_blank" class="btn float-btn" title="Join HallosTech Telegram">
-       <span>
-         <i class="fa-brands fa-telegram"></i>
-       </span>
+       <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/telegram.png" alt="telegram"/>
     </a>
     <a href='https://purpleyard.xyz' target='_blank' class='btn float-btn' title='Visit PurpleYard'>
       <span>
