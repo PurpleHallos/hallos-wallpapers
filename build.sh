@@ -74,7 +74,7 @@ echo "<!DOCTYPE html>
     </a>
     <a href='https://purpleyard.xyz' target='_blank' class='btn float-btn' title='Visit PurpleYard'>
       <span>
-         <i class='fa-brands fa-blog'></i>
+        <i class="fa-solid fa-blog"></i>
       </span>
    </a>
     <a href='https://github.com/PurpleHallos/hallos-wallpapers' target='_blank' class='btn float-btn' title='Source code' >
