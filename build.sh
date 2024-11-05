@@ -69,7 +69,7 @@ echo "<!DOCTYPE html>
   <div class='float-btns'>
     <a href="https://t.me/HallosTech" target="_blank" class="btn float-btn" title="Join HallosTech Telegram">
        <span>
-         <i class="fa-brands fa-telegram"></i>
+         <i class="fa fa-telegram"></i>
        </span>
     </a>
     <a href='https://purpleyard.xyz' target='_blank' class='btn float-btn' title='Visit PurpleYard'>
