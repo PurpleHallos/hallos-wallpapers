@@ -49,6 +49,8 @@ echo "<!DOCTYPE html>
   <meta property="og:image" content="https://wallos.purpleyard.xyz/wallpapers/nord/wallhaven-z88pvj.jpg">
   <meta property="og:url" content="https://wallos.purpleyard.xyz/">
   <meta property="og:type" content="website">
+  <meta property="og:logo" content="https://img.icons8.com/pulsar-color/48/picture.png"> <!-- Logo image URL -->
+
 
   <!-- Twitter Card Meta Tags -->
   <meta name="twitter:card" content="summary_large_image">
